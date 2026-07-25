@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil Kumar Prince - Full-Stack Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0ea5e9',
+                        darkBg: '#0f172a',
+                        cardBg: '#1e293b'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-darkBg text-slate-300 font-sans antialiased leading-relaxed">
+
+<!-- Header Section -->
+    <header class="bg-cardBg py-12 px-6 border-b border-slate-700 shadow-lg">
+        <div class="max-w-4xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-8 text-center md:text-left">
+            
+            <!-- Name & Contact Details -->
+            <div class="flex-1">
+                <h1 class="text-4xl md:text-5xl font-bold text-white tracking-tight mb-2">Nikhil Kumar Prince</h1>
+                <h2 class="text-xl text-primary font-medium mb-4">Full-Stack Developer</h2>
+                <div class="flex flex-wrap justify-center md:justify-start gap-4 text-sm text-slate-400 mb-6">
+                    <span class="flex items-center gap-1"><i class="fas fa-map-marker-alt"></i> Gurugram, Haryana, IN</span>
+                    <span class="flex items-center gap-1"><i class="fas fa-envelope"></i> nikhilkumarprince555@gmail.com</span>
+                    <span class="flex items-center gap-1"><i class="fas fa-phone"></i> (+91) 6203797457</span>
+                </div>
+                <!-- Social Links -->
+                <div class="flex gap-4 justify-center md:justify-start">
+                    <a href="#" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fab fa-github"></i></a>
+                    <a href="#" class="text-slate-400 hover:text-white transition-colors text-2xl"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <!-- Profile Picture (Passport Size) -->
+            <div class="shrink-0">
+                <!-- Replace 'profile.jpg' with your actual image file name -->
+                <img src="pasport.jpg" alt="Nikhil Kumar Prince" class="w-28 h-36 md:w-32 md:h-40 object-cover rounded-xl border-2 border-primary shadow-lg">
+            </div>
+
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 py-12 space-y-16">
+        
+        <!-- Summary Section -->
+        <section>
+            <h3 class="text-2xl font-bold text-white mb-6 border-b border-slate-700 pb-2">Summary</h3>
+            <p class="text-slate-400 leading-relaxed">
+                Full-Stack Developer with 2+ years of experience building high-impact web applications. Expertise in architecting scalable back-end systems and crafting intuitive user interfaces. Proven ability to design scalable systems, solve complex challenges, and deliver reliable, high-performance applications.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section>
+            <h3 class="text-2xl font-bold text-white mb-6 border-b border-slate-700 pb-2">Skills</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-cardBg p-5 rounded-lg border border-slate-700">
+                    <h4 class="text-white font-semibold mb-3">Frontend</h4>
+                    <p class="text-slate-400 text-sm">HTML, CSS, Typescript/JavaScript, Angular, Tailwind CSS, Material UI</p>
+                </div>
+                <div class="bg-cardBg p-5 rounded-lg border border-slate-700">
+                    <h4 class="text-white font-semibold mb-3">Backend</h4>
+                    <p class="text-slate-400 text-sm">.NET core, SQL, MVC, JWT</p>
+                </div>
+                <div class="bg-cardBg p-5 rounded-lg border border-slate-700">
+                    <h4 class="text-white font-semibold mb-3">Familiar With</h4>
+                    <p class="text-slate-400 text-sm">Docker, C/C++, RabbitMQ, Postman, Kubernetes, Linux</p>
+                </div>
+                <div class="bg-cardBg p-5 rounded-lg border border-slate-700">
+                    <h4 class="text-white font-semibold mb-3">Others</h4>
+                    <p class="text-slate-400 text-sm">Git/GitHub, AWS/Azure, AI-Assisted Development (ChatGPT, GitHub Copilot)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section>
+            <h3 class="text-2xl font-bold text-white mb-6 border-b border-slate-700 pb-2">Work Experience</h3>
+            
+            <div class="space-y-8">
+                <!-- Job 1 -->
+                <div class="relative pl-6 border-l-2 border-primary">
+                    <div class="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-1.5"></div>
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+                        <h4 class="text-lg font-bold text-white">Engineer <span class="text-slate-400 font-normal">| Evalueserve</span></h4>
+                        <span class="text-sm text-primary font-medium">August 2024 - Present | Gurugram</span>
+                    </div>
+                    <ul class="list-disc list-outside ml-4 text-sm text-slate-400 space-y-2">
+                        <li>Built and optimized Spreadsmart, an AI-powered financial spreading tool replacing manual data entry with automated extraction.</li>
+                        <li>Collaborated in an Agile environment to deliver features and resolve bugs, boosting team efficiency and code quality by 20%.</li>
+                        <li>Developed 5+ reusable components using Angular and .NET for a microservices-based job scheduling service.</li>
+                        <li>Played a major role in integrating Spreadsmart with a renowned client's application.</li>
+                    </ul>
+                </div>
+
+                <!-- Job 2 -->
+                <div class="relative pl-6 border-l-2 border-primary">
+                    <div class="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-1.5"></div>
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+                        <h4 class="text-lg font-bold text-white">ITC Intern <span class="text-slate-400 font-normal">| Evalueserve</span></h4>
+                        <span class="text-sm text-primary font-medium">February 2024 - August 2024 | Gurugram</span>
+                    </div>
+                    <ul class="list-disc list-outside ml-4 text-sm text-slate-400 space-y-2">
+                        <li>Re-architected and released a Full-Stack E-Learning platform using Angular and .NET, decreasing codebase by 30%.</li>
+                        <li>Upgraded legacy codebase, resulting in 2x faster development cycles and 30% fewer QA bugs.</li>
+                        <li>Worked on RabbitMQ for reliable message delivery, load balancing, and asynchronous processing.</li>
+                        <li>Developed cloud solutions using Azure (DevOps, Virtual Machines, Storage Accounts).</li>
+                    </ul>
+                </div>
+
+                <!-- Job 3 -->
+                <div class="relative pl-6 border-l-2 border-primary">
+                    <div class="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-1.5"></div>
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+                        <h4 class="text-lg font-bold text-white">Android Developer Trainee <span class="text-slate-400 font-normal">| KOTLIN BOOT-CAMP</span></h4>
+                        <span class="text-sm text-primary font-medium">March 2022 | Remote</span>
+                    </div>
+                    <ul class="list-disc list-outside ml-4 text-sm text-slate-400 space-y-2">
+                        <li>Implemented MVVM model for a Chat application using XML, Kotlin, and Firebase.</li>
+                        <li>Achieved a 30% performance gain and 40% increase in usability by optimizing UI responsiveness.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section>
+            <h3 class="text-2xl font-bold text-white mb-6 border-b border-slate-700 pb-2">Projects</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-cardBg p-6 rounded-lg border border-slate-700 hover:border-primary transition-colors">
+                    <h4 class="text-white font-bold mb-2">Disease Prediction with Symptoms</h4>
+                    <p class="text-sm text-slate-400">Based on CNN model training where vast data is used to predict diseases by providing symptoms.</p>
+                </div>
+                <div class="bg-cardBg p-6 rounded-lg border border-slate-700 hover:border-primary transition-colors">
+                    <h4 class="text-white font-bold mb-2">Advanced Street Light</h4>
+                    <p class="text-sm text-slate-400">Arduino Uno based hardware/software integration replacing traditional speed breakers with rotating rollers to generate electricity.</p>
+                </div>
+                <div class="bg-cardBg p-6 rounded-lg border border-slate-700 hover:border-primary transition-colors">
+                    <h4 class="text-white font-bold mb-2">Ecommerce Website</h4>
+                    <p class="text-sm text-slate-400">Full-stack web project built in Angular and .NET to make e-commerce easy and accessible.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications Section -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <section>
+                <h3 class="text-2xl font-bold text-white mb-6 border-b border-slate-700 pb-2">Education</h3>
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-white font-bold">Bachelor of Engineering in Computer Science</h4>
+                        <p class="text-sm text-primary mb-1">Chandigarh University | 8.0 CGPA | 2020 - 2024</p>
+                        <p class="text-xs text-slate-400">Coursework: Algorithms & Data Structures, OS, DBMS, Computer Networks.</p>
+                    </div>
+                    <div>
+                        <h4 class="text-white font-bold">Senior Secondary (86%)</h4>
+                        <p class="text-sm text-slate-400">Sri Chaitanya, Visakhapatnam | April 2020</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h3 class="text-2xl font-bold text-white mb-6 border-b border-slate-700 pb-2">Certifications</h3>
+                <ul class="space-y-4">
+                    <li class="flex items-center gap-3 bg-cardBg p-4 rounded-lg border border-slate-700">
+                        <i class="fas fa-cloud text-primary text-xl"></i>
+                        <div>
+                            <p class="text-white font-medium">Cloud Computing with AWS</p>
+                            <p class="text-xs text-slate-400">Internshala</p>
+                        </div>
+                    </li>
+                    <li class="flex items-center gap-3 bg-cardBg p-4 rounded-lg border border-slate-700">
+                        <i class="fas fa-server text-primary text-xl"></i>
+                        <div>
+                            <p class="text-white font-medium">AWS Cloud Solutions Architect</p>
+                            <p class="text-xs text-slate-400">Coursera</p>
+                        </div>
+                    </li>
+                    <li class="flex items-center gap-3 bg-cardBg p-4 rounded-lg border border-slate-700">
+                        <i class="fas fa-shield-alt text-primary text-xl"></i>
+                        <div>
+                            <p class="text-white font-medium">Introduction to Cybersecurity</p>
+                            <p class="text-xs text-slate-400">Coursera</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+    </main>
+
+    <footer class="bg-cardBg py-8 text-center border-t border-slate-700 mt-12">
+        <p class="text-slate-500 text-sm">© 2024 Nikhil Kumar Prince. Built with HTML & Tailwind CSS.</p>
+    </footer>
+
+</body>
+</html>
